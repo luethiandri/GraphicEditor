@@ -11,8 +11,8 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 public class FigureParserTest {
-    private FigureDAO dao = new FigureDAOStub();
-    private FigureParser pp = new FigureParser(dao);
+    private final FigureDAO dao = new FigureDAOStub();
+    private final FigureParser pp = new FigureParser(dao);
 
     @Test
     public void detailStringsShouldBeEqual() {

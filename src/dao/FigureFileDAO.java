@@ -28,7 +28,7 @@ public class FigureFileDAO implements FigureDAO {
     if (in != null) {
       try {
         String line = in.readLine();
-        if (line != null && !line.isEmpty()) 
+        if (line != null && !line.isEmpty())
           return line.split("\\s");
       } catch (IOException e) {
         e.printStackTrace();

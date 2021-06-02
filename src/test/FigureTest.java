@@ -5,7 +5,7 @@ import shapes.*;
 import static org.junit.Assert.assertEquals;
 
 public class FigureTest {
-    private GraphicsStub graphics = new GraphicsStub();
+    private final GraphicsStub graphics = new GraphicsStub();
     @Test
     public void rectangleValuesShouldBeEqual() {
         Rectangle rectangle = new Rectangle(300, 350, 150, 300);

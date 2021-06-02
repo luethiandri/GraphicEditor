@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FigureParser {
-  private FigureDAO dao;
+  private final FigureDAO dao;
 
   public FigureParser(FigureDAO dao) {
     this.dao = dao;
